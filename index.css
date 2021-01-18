@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 700px) [md-end] 1.5rem 1fr [xl-end];
+  grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 1000px) [md-end] 1.5rem 1fr [xl-end];
 }
 
 .grid * {
@@ -28,6 +28,10 @@
 .column .image {
   width: 100%;
   height: 100%;
+}
+
+.caja{
+  margin-top:18px;
 }
 @media (max-width: 672px) {
   :root {
