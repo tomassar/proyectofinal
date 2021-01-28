@@ -47,10 +47,11 @@
 }
 .caja{
   padding-top:10px;
-  margin-top:18px;
+  margin-top:30px;
   background-color:#302f2f;
   color: #d3d3d3;
   border-radius: 15px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 672px) {
